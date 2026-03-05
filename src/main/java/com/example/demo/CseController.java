@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CseController {
 	@GetMapping("/home")
 	public String disp() {
-		return "WELCOME TO DCOER SPRING";
+		return "WELCOME TO DCOER SPRING from YDP";
 	}
 
 }
